@@ -3,6 +3,7 @@ import img2 from '../../images/img3.svg';
 import img3 from '../../images/img2.svg';
 import img4 from '../../images/img5.svg';
 
+
 export const homeObjOne = {
     id : 'about',
     lightBg: false,
@@ -74,3 +75,5 @@ export const homeObjFour = {
     primary: true,
     darkText:false
 };
+
+

@@ -1,5 +1,4 @@
 import React , {useState} from 'react';
-// import Carousel from '../components/Carousel/CarouselElements';
 import Footer from '../components/Footer';
 import HeroSection from '../components/HeroSection';
 import InfoSection from '../components/InfoSection';
@@ -25,7 +24,6 @@ const Home = () => {
             <InfoSection {...homeObjTwo}/>
             <Services ></Services>
             <InfoSection {...homeObjThree}/>
-            {/* <Carousel></Carousel> */}
             <Footer></Footer>
         </>
     );
