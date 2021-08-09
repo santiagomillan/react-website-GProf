@@ -2,6 +2,7 @@ import imgS1 from '../../images/img6_Stu.svg';
 import img2 from '../../images/img1_Stu.svg';
 // import img3 from '../../images/img2_Stu.svg';
 import img4 from '../../images/img3_Stu.svg';
+import img5 from '../../images/img5_Stu.svg';
 
 
 
@@ -57,4 +58,21 @@ export const homeObjStudentTree = {
     dark: true,
     primary: true,
     darkText:false
+};
+
+export const homeObjStudentFour = {
+    id : 'contacto',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: "Seccion de contacto",
+    headline: "Contacto",
+    description: "Encontraras todos losdedios para contactarte con el profesor.",
+    // buttonLabel : "Get started",
+    imgStart: true,
+    img : img5,
+    alt:'Car',
+    dark: false,
+    primary: true,
+    darkText:true
 };

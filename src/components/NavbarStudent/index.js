@@ -28,7 +28,7 @@ const NavbarS = ({toggle}) => {
         <IconContext.Provider value={{color : '#fff'}}>
            <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
-                    <NavLogo to='/' onClick={toggleHome}>
+                    <NavLogo to='/student' onClick={toggleHome}>
                         GestoProf
                     </NavLogo>
                     <MobileIcon onClick={toggle}>
@@ -77,7 +77,7 @@ const NavbarS = ({toggle}) => {
                         </NavItem>
                     </NavMenu>
                     <NavBtn>
-                        <NavBtnLink to='/signin'
+                        <NavBtnLink to='/'
                         smooth={true} 
                         duration ={500} 
                         spy={true} 

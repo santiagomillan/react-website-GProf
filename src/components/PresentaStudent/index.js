@@ -4,7 +4,7 @@ import React from 'react'
 // import Icon3 from '../../images/img6.svg'
 import {ServicesContainer, ServicesH2, ServicesIcon, ServicesP, ServicesWrapper, ServicesCard} from './ServicesElements'
 
-const Document = (
+const Presenta = (
     {img,
     alt,
     heading,
@@ -31,4 +31,4 @@ const Document = (
     )
 }
 
-export default Document
+export default Presenta

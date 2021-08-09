@@ -7,7 +7,7 @@ export const ServicesContainer = styled.div`
     justify-content: center;
     align-items: center;
     // background: #f9f9f9;
-    background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#10222E')};
+    background: ${({ lightBg }) => (lightBg ?   '#10222E':'#f9f9f9')};
     
     @media screen and (max-width:768px){
         height: 300px;
