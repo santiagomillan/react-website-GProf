@@ -11,6 +11,7 @@ import Presenta from '../components/PresentaStudent';
 import { pre1,pre2,pre3 } from '../components/PresentaStudent/Data';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
+import {con} from '../components/Contact/Data';
 
 
 
@@ -38,7 +39,7 @@ const StudentPage = () => {
             <Presenta {...pre2}/>
             <Presenta {...pre3}/>
             <InfoSection {...homeObjStudentFour}/>
-            <Contact></Contact>
+            <Contact {...con}/>
             <Footer></Footer>
         </>
     );

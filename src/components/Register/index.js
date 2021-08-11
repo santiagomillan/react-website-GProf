@@ -1,5 +1,5 @@
 import React from 'react'
-import {Container,FormWrap,Icon,Form,FormButton,FormatContent,Text,FormatLabel,FormatInput,FormH1} from './RegisterElements'
+import {Container,FormWrap,Icon,Form,FormButton,FormatContent,FormatLabel,FormatInput,FormH1} from './RegisterElements'
 
 
 const Register = () => {
@@ -23,7 +23,7 @@ const Register = () => {
                             <FormatInput type='number' required></FormatInput>
 
                             <FormButton type='submit'>Continue</FormButton>
-                            <Text>Forgot password</Text>
+                            {/* <Text>Forgot password</Text> */}
                         </Form>
                     </FormatContent>
                 </FormWrap>

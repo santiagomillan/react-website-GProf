@@ -15,6 +15,7 @@ const Contact = ({props ,Correo ,wpp }) => {
         <Card>
           <CardBody >
               {Correo}
+              <br></br>
               {wpp}
           </CardBody>
         </Card>

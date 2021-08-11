@@ -1,6 +1,6 @@
 import React from 'react'
 // import { Button } from '../ButtonElements'
-import {Container,FormWrap,Icon,Form,FormButton,FormatContent,Text,FormatLabel,FormatInput,FormH1,IconRe} from './SigninElements'
+import {Container,FormWrap,Icon,Form,FormButton,FormatContent,FormatLabel,FormatInput,FormH1,IconRe} from './SigninElements'
 
 
 const SignIn = () => {
@@ -17,7 +17,7 @@ const SignIn = () => {
                             <FormatLabel htmlFor='for'>Password</FormatLabel>
                             <FormatInput type='password' required></FormatInput>
                             <FormButton type='submit'>Continue</FormButton>
-                            <Text>Forgot password</Text>
+                            {/* <Text>Forgot password</Text> */}
                             <IconRe to="/register">Registrate aqui</IconRe>
                         </Form>
                     </FormatContent>

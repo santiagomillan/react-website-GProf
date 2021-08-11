@@ -6,6 +6,7 @@ import SigninPage from './pages/signin';
 // import Navbar from './components/Navbar';
 import RegisterPage from './pages/register';
 import StudentPage from './pages/student';
+import TeacherPage from './pages/teacher';
 
 
 
@@ -21,6 +22,8 @@ function App() {
         <Route path='/register' component = {RegisterPage} exact></Route>
 
         <Route path='/student' component= {StudentPage} exact></Route>
+        <Route path='/teacher' component= {TeacherPage} exact></Route>
+
       </Switch>
       {/* <Home />  */}
     </Router>

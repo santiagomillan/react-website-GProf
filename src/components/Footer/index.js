@@ -68,7 +68,7 @@ const Footer = () => {
                         <SocialLogo to="/" onClick={toggleHome}>
                             GestoProf
                         </SocialLogo>
-                            <WebsiteRirghts>GestoProf C {new Date().getFullYear()}All Rights reserved</WebsiteRirghts>
+                            <WebsiteRirghts>GestoProf © {new Date().getFullYear()} All Rights reserved</WebsiteRirghts>
                             {/* <SocialIconLink fref="/" target="_blank" arial-label="Faccebook">
                                 <FaFacebook></FaFacebook>
                             </SocialIconLink>
